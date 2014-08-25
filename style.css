@@ -1,0 +1,21 @@
+
+/**
+ * Piwik logo.
+ */
+
+.logo[data-logo="Piwik"] {
+  width: 3.003882452670246em;
+}
+
+.logo[data-logo="Piwik"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Piwik"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Piwik"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
